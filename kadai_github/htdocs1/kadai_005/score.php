@@ -18,14 +18,13 @@
     $score10 = 60;
 
     //  合計点を計算
-    ＄total = $score1+$score2+$score3+$score4+$score5+$score6+$score7+$score8+$score9+$score10;
+    $total = $score1+$score2+$score3+$score4+$score5+$score6+$score7+$score8+$score9+$score10;
 
     echo "合計点:".$total."<br>";
     
     // 平均点を計算（合計点/教科数）
-    $average = $total/10;
     
-    echo "平均点:".$total/10;
+    echo "平均点:".$average;
     ?>
     </body>
 </html>
